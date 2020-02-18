@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	1.填写xml文档的根元素
+	2.引入xsi前缀.  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	3.引入xsd文件命名空间.  xsi:schemaLocation="http://www.chinasoft.cn/xml  student.xsd"
+	4.为每一个xsd约束声明一个前缀,作为标识  xmlns="http://www.chinasoft.cn/xml"
+
+
+ -->
+<teachers  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.chinasoft.cn/xml"
+            xsi:schemaLocation="http://www.chinasoft.cn/xml  teachers.xsd"
+>
+    <teacher id="1">
+        <name>张三</name>
+        <gender>female</gender>
+        <salary>5000</salary>
+    </teacher>
+
+    <teacher id="2">
+        <name>李四</name>
+        <gender>male</gender>
+        <salary>3000</salary>
+    </teacher>
+
+    <teacher id="3">
+        <name>王五</name>
+        <gender>male</gender>
+        <salary>6000</salary>
+    </teacher>
+</teachers>
